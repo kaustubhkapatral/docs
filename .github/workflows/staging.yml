@@ -41,6 +41,6 @@ jobs:
         command_timeout: "20m"
         script: |
           cd ~/staging-docs/docs/.vitepress/dist
-          sudo rm -rf /var/www/html/staging-docs/*
-          sudo cp -r * /var/www/html/staging-docs/
+          sudo rm -rf /var/www/staging-docs/*
+          sudo cp -r * /var/www/staging-docs/
           sudo systemctl restart nginx
