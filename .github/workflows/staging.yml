@@ -1,0 +1,46 @@
+name: Deploy to Staging
+
+on:
+  push:
+    branches:
+      - staging
+  pull_request:
+    branches:
+      - staging
+    types:
+      - closed
+
+jobs:
+  deploy:
+    if: github.event.pull_request.merged == true || github.event_name == 'push'
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Build staging branch
+      uses: appleboy/ssh-action@v0.1.4
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        key: ${{ secrets.KEY }}
+        port: ${{ secrets.PORT }}
+        command_timeout: "20m"
+        script: |
+          cd ~/staging-docs/docs
+          rm -rf .vitepress/dist
+          git pull origin staging
+          npm run docs:build
+
+    - name: Deploy staging branch
+      uses: appleboy/ssh-action@v0.1.4
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        key: ${{ secrets.KEY }}
+        port: ${{ secrets.PORT }}
+        command_timeout: "20m"
+        script: |
+          cd ~/staging-docs/docs/.vitepress/dist
+          sudo rm -rf /var/www/html/staging-docs/*
+          sudo cp -r * /var/www/html/staging-docs/
+          sudo systemctl restart nginx
