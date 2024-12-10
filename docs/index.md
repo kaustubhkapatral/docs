@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Arka Documentation"
+  name: "Arka Network"
   text: "Arka network"
   tagline: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   image:
