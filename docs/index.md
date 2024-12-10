@@ -4,7 +4,6 @@ layout: home
 
 hero:
   name: "Arka Network"
-  text: "Arka network"
   tagline: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   image:
     src: /arka.png
@@ -19,16 +18,16 @@ hero:
 
 features:
   - title: Learn
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: Dive into the foundations of AI sovereignty and explore how Arka revolutionizes decentralized AI systems.
     link: /learn
   - title: AI Builders
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: Step-by-step guidance on creating, deploying, and managing AI agents in a decentralized ecosystem.
     link: /ai-builders
   - title: How - To Guides
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
     link: /how-to
   - title: Community
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: Join the vibrant Arka ecosystem, collaborate with innovators, and shape the decentralized AI future.
     link: /socials
 ---
 
