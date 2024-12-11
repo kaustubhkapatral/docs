@@ -78,23 +78,23 @@ export default defineConfig({
             items: [
               {
                 text: "Leveraging Cosmos SDK",
-                link: "/docs/learn/technology#leveraging-cosmos-sdk"
+                link: "/learn/technology#leveraging-cosmos-sdk"
               },
               {
                 text: "Royalties Module", 
-                link: "/docs/learn/technology#royalties-module"
+                link: "/learn/technology#royalties-module"
               },
               {
                 text: "Payment Splitter Contract",
-                link: "/docs/learn/technology#payment-splitter-contract"
+                link: "/learn/technology#payment-splitter-contract"
               },
               {
                 text: "Decentralized GPU Network Integration",
-                link: "/docs/learn/technology#decentralized-gpu-network-integration"
+                link: "/learn/technology#decentralized-gpu-network-integration"
               },
               {
                 text: "NFT Leasing and Licensing",
-                link: "/docs/learn/technology#nft-leasing-and-licensing"
+                link: "/learn/technology#nft-leasing-and-licensing"
               }
             ]
 
