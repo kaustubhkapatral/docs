@@ -101,7 +101,6 @@ export default defineConfig({
 
           },
           { text: 'Tokenomics', link: '/learn/tokenomics', },
-          { text: 'Welcome to Arka Network', link: '/learn/welcome-to-arka', },
         ]
       },
       {

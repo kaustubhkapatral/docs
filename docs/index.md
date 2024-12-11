@@ -18,15 +18,23 @@ hero:
 
 features:
   - title: Learn
+    icon:
+      src: /learn.png
     details: Dive into the foundations of AI sovereignty and explore how Arka revolutionizes decentralized AI systems.
     link: /learn/overview
   - title: AI Builders
+    icon:
+      src: /ai-builders.png
     details: Step-by-step guidance on creating, deploying, and managing AI agents in a decentralized ecosystem.
     link: /ai-builders/build-an-agent
   - title: How - To Guides
+    icon:
+      src: /how-to-guide.png
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
     link: /how-to
   - title: Community
+    icon:
+      src: /community.png
     details: Join the vibrant Arka ecosystem, collaborate with innovators, and shape the decentralized AI future.
     link: /socials
 ---
