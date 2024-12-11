@@ -6,7 +6,7 @@ hero:
   name: "Arka Network"
   tagline: Build, deploy, and scale decentralized AI agents with full data ownership and trustless precision. Empowering AI to operate autonomously in a truly decentralized ecosystem.
   image:
-    src: /arka.png
+    src: /arka-logo.png
     alt: Arka
   actions:
     - theme: brand

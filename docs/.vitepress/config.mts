@@ -4,12 +4,24 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Arka Documentation",
   description: "Arka network",
+  vite: {
+    css: {
+      preprocessorOptions: {
+        css: {
+          additionalData: `@import './.vitepress/styles.css';`,
+        },
+      },
+    },
+  },
   themeConfig: {
+    socialLinks: [
+    ],
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Discord', link: 'https://discord.gg/3uHagdH8' },
       { text: 'Twitter', link: 'https://x.com/ArkaNetwork_' }
     ],
+    
 
     sidebar: [
       {
