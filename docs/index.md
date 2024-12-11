@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: Quick start
-      link: /learn
+      link: /learn/overview
     - theme: alt
       text: Community
       link: /socials
@@ -19,10 +19,10 @@ hero:
 features:
   - title: Learn
     details: Dive into the foundations of AI sovereignty and explore how Arka revolutionizes decentralized AI systems.
-    link: /learn
+    link: /learn/overview
   - title: AI Builders
     details: Step-by-step guidance on creating, deploying, and managing AI agents in a decentralized ecosystem.
-    link: /ai-builders
+    link: /ai-builders/build-an-agent
   - title: How - To Guides
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
     link: /how-to

@@ -76,7 +76,7 @@ This command will list all the versions registered with the specified repository
 
 Visit [Dev Studio](https://studio.arka.network), This will open the Dev Studio website, where you can manage your Agent versions with ease.
 
-*Steps:*
+**Steps:**
 
 - Connect your wallet and ensure you have enough Arka tokens.
 - Now goto `Hub` section. If the repository does not already exist, click on `Create Repository`.

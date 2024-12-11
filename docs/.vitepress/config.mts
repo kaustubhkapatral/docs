@@ -21,7 +21,7 @@ export default defineConfig({
       { text: 'Discord', link: 'https://discord.gg/3uHagdH8' },
       { text: 'Twitter', link: 'https://x.com/ArkaNetwork_' }
     ],
-    
+
 
     sidebar: [
       {
@@ -29,7 +29,7 @@ export default defineConfig({
         collapsed: true,
         items: [
           {
-            text: 'Overview', link: '/learn/overview', 
+            text: 'Overview', link: '/learn/overview',
             items: [
               {
                 text: "What is Arka Network",
@@ -74,14 +74,15 @@ export default defineConfig({
 
           },
           { text: 'How the platform works', link: '/learn/how-platform-works', },
-          { text: 'Technology', link: '/learn/technology',
+          {
+            text: 'Technology', link: '/learn/technology',
             items: [
               {
                 text: "Leveraging Cosmos SDK",
                 link: "/learn/technology#leveraging-cosmos-sdk"
               },
               {
-                text: "Royalties Module", 
+                text: "Royalties Module",
                 link: "/learn/technology#royalties-module"
               },
               {
@@ -98,7 +99,7 @@ export default defineConfig({
               }
             ]
 
-           },
+          },
           { text: 'Tokenomics', link: '/learn/tokenomics', },
           { text: 'Welcome to Arka Network', link: '/learn/welcome-to-arka', },
         ]
@@ -123,7 +124,8 @@ export default defineConfig({
         text: 'Community',
         collapsed: true,
         items: [
-          { text: 'Socials', link: '/socials' },
+          { text: 'Discord', link: 'https://discord.gg/3uHagdH8' },
+          { text: 'Twitter', link: 'https://x.com/ArkaNetwork_' }
         ]
       }
     ],
