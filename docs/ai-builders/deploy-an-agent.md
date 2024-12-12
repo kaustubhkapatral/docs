@@ -5,7 +5,7 @@ Before deploying an Agent on the Arka network, you must have the Agent code regi
 
 You can submit an Agent deployment request in one of the following ways:
 - Using Arka node binary
-- Using Arka Dev Studio
+- Using Arka Playground
 
 ## Using Arka node binary
 
@@ -29,9 +29,9 @@ You can query the deployment information with following command:
 arkad q deployment deployment <deployment-id>
 ```
 
-## Using Arka Dev Studio
+## Using Arka Playground
 
-Visit [Dev Studio](https://studio.arka.network), This will open the Dev Studio website, where you can deploy Agents.
+Visit [Playground](https://studio.arka.network), This will open the Playground website, where you can deploy Agents.
 
 **Steps:**
 - Connect your wallet and ensure you have enough Arka tokens.

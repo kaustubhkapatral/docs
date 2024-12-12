@@ -2,7 +2,7 @@
 
 This documentation provides a detailed guide on how to register an Agent with the Arka Network and manage its versions. You can achieve this in one of the following ways:
 - Using the Arka Node and IPFS
-- Using Arka Dev Studio
+- Using Arka Playground
 
 ## Using Arka Node and IPFS
 
@@ -72,9 +72,9 @@ arkad q storage versions --repository_id 1
 
 This command will list all the versions registered with the specified repository.
 
-## Using Arka Dev Studio
+## Using Arka Playground
 
-Visit [Dev Studio](https://studio.arka.network), This will open the Dev Studio website, where you can manage your Agent versions with ease.
+Visit [Playground](https://studio.arka.network), This will open the Playground website, where you can manage your Agent versions with ease.
 
 **Steps:**
 

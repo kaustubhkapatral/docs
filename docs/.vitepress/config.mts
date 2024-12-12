@@ -14,13 +14,24 @@ export default defineConfig({
     },
   },
   themeConfig: {
+    search: {
+      provider: 'local'
+    },
     socialLinks: [
+      {
+        icon: "discord",
+        link: 'https://discord.gg/3uHagdH8'
+      },
+      {
+        icon: "twitter",
+        link: 'https://x.com/ArkaNetwork_'
+      }
     ],
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Discord', link: 'https://discord.gg/3uHagdH8' },
-      { text: 'Twitter', link: 'https://x.com/ArkaNetwork_' }
-    ],
+    // nav: [
+    //   { text: 'Discord', link: 'https://discord.gg/3uHagdH8' },
+    //   { text: 'Twitter', link: 'https://x.com/ArkaNetwork_' }
+    // ],
 
 
     sidebar: [

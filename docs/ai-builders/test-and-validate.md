@@ -1,10 +1,10 @@
 # Test And Validate
 
-This guide focuses on using Arka Dev Studio to test and refine your Agent. It covers creating a repository to manage your Agent's versions, deploying a Jupyter Notebook environment for development, and iterating on Agent logic by creating and registering multiple versions. You can also deploy specific versions for testing and further refinement.
+This guide focuses on using Arka Playground to test and refine your Agent. It covers creating a repository to manage your Agent's versions, deploying a Jupyter Notebook environment for development, and iterating on Agent logic by creating and registering multiple versions. You can also deploy specific versions for testing and further refinement.
 
-## Dev Studio
+## Playground
 
-Visit [Dev Studio](https://studio.arka.network), This will open the Dev Studio website, where you can manage your Agent versions with ease.
+Visit [Playground](https://studio.arka.network), This will open the Playground website, where you can manage your Agent versions with ease.
 
 **Steps:**
 
