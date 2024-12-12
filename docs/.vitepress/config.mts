@@ -110,7 +110,7 @@ export default defineConfig({
           { text: 'Build An Agent', link: '/ai-builders/build-an-agent' },
           { text: 'Deploy An Agent', link: '/ai-builders/deploy-an-agent' },
           { text: 'Test And Validate', link: '/ai-builders/test-and-validate' },
-          { text: 'Monitize', link: '/ai-builders/monitize-agent' }
+          { text: 'Monitize', link: '/ai-builders/monetize-agent' }
         ]
       },
       {
