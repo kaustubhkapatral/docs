@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Arka Documentation",
+  title: "Arka Network - Docs",
   description: "Arka network",
   vite: {
     css: {
@@ -13,7 +13,13 @@ export default defineConfig({
       },
     },
   },
+  
   themeConfig: {
+    logo: {
+      alt: "Arka Logo",
+      light: "/arka-light.svg",
+      dark: "/arka-dark.svg",
+    },
     search: {
       provider: 'local'
     },
@@ -23,21 +29,14 @@ export default defineConfig({
         link: 'https://discord.gg/3uHagdH8'
       },
       {
-        icon: "twitter",
+        icon: "x",
         link: 'https://x.com/ArkaNetwork_'
       }
     ],
-    // https://vitepress.dev/reference/default-theme-config
-    // nav: [
-    //   { text: 'Discord', link: 'https://discord.gg/3uHagdH8' },
-    //   { text: 'Twitter', link: 'https://x.com/ArkaNetwork_' }
-    // ],
-
-
     sidebar: [
       {
         text: 'Learn',
-        collapsed: true,
+        collapsed: false,
         items: [
           {
             text: 'Overview', link: '/learn/overview',
@@ -61,18 +60,18 @@ export default defineConfig({
           {
             text: 'Core Features', link: '/learn/core-features',
             items: [
-              {
-                text: "AI Models As NFTs",
-                link: '/learn/core-features#ai-models-as-nfts'
-              },
-              {
-                text: "NFT Licensing",
-                link: '/learn/core-features#nft-licensing'
-              },
-              {
-                text: "NFT Leasing",
-                link: '/learn/core-features#nft-leasing'
-              },
+              // {
+              //   text: "AI Models As NFTs",
+              //   link: '/learn/core-features#ai-models-as-nfts'
+              // },
+              // {
+              //   text: "NFT Licensing",
+              //   link: '/learn/core-features#nft-licensing'
+              // },
+              // {
+              //   text: "NFT Leasing",
+              //   link: '/learn/core-features#nft-leasing'
+              // },
               {
                 text: "Creators’ Toolbox",
                 link: '/learn/core-features#creators-toolbox'
@@ -92,22 +91,22 @@ export default defineConfig({
                 text: "Leveraging Cosmos SDK",
                 link: "/learn/technology#leveraging-cosmos-sdk"
               },
-              {
-                text: "Royalties Module",
-                link: "/learn/technology#royalties-module"
-              },
-              {
-                text: "Payment Splitter Contract",
-                link: "/learn/technology#payment-splitter-contract"
-              },
+              // {
+              //   text: "Royalties Module",
+              //   link: "/learn/technology#royalties-module"
+              // },
+              // {
+              //   text: "Payment Splitter Contract",
+              //   link: "/learn/technology#payment-splitter-contract"
+              // },
               {
                 text: "Decentralized GPU Network Integration",
                 link: "/learn/technology#decentralized-gpu-network-integration"
               },
-              {
-                text: "NFT Leasing and Licensing",
-                link: "/learn/technology#nft-leasing-and-licensing"
-              }
+              // {
+              //   text: "NFT Leasing and Licensing",
+              //   link: "/learn/technology#nft-leasing-and-licensing"
+              // }
             ]
 
           },
@@ -116,7 +115,7 @@ export default defineConfig({
       },
       {
         text: 'AI Builders',
-        collapsed: true,
+        collapsed: false,
         items: [
           { text: 'Build An Agent', link: '/ai-builders/build-an-agent' },
           { text: 'Deploy An Agent', link: '/ai-builders/deploy-an-agent' },
@@ -126,7 +125,7 @@ export default defineConfig({
       },
       {
         text: 'How - To Guide',
-        collapsed: true,
+        collapsed: false,
         items: [
           { text: 'Run a node', link: '/how-to/run-a-node' },
           { text: 'How to access an Agent', link: '/how-to/access-an-agent' }
@@ -134,7 +133,7 @@ export default defineConfig({
       },
       {
         text: 'Community',
-        collapsed: true,
+        collapsed: false,
         items: [
           { text: 'Discord', link: 'https://discord.gg/3uHagdH8' },
           { text: 'Twitter', link: 'https://x.com/ArkaNetwork_' }

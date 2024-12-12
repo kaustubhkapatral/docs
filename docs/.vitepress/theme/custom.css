@@ -10,3 +10,8 @@ html.dark {
   --vp-home-hero-name-color: white;
   /* For dark theme */
 }
+
+.logo {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
