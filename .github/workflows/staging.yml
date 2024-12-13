@@ -26,7 +26,8 @@ jobs:
         port: ${{ secrets.PORT }}
         command_timeout: "20m"
         script: |
-          cd ~/staging-docs/docs
+          set -e
+          cd ~/docs
           rm -rf .vitepress/dist
           git pull origin staging
           npm run docs:build
