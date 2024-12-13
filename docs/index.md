@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: Quick start
-      link: /learn/overview
+      link: /learn/arka-network
     - theme: alt
       text: Community
       link: /socials
@@ -21,7 +21,7 @@ features:
     icon:
       src: /learn.png
     details: Dive into the foundations of AI sovereignty and explore how Arka revolutionizes decentralized AI systems.
-    link: /learn/welcome-to-arka
+    link: /learn/arka-network
   - title: AI Builders
     icon:
       src: /ai-builders.png
