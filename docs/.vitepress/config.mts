@@ -43,19 +43,19 @@ export default defineConfig({
             items: [
               {
                 text: "What is Arka Network?",
-                link: '/learn/overview#what-is-arka-network'
+                link: '/learn/arka-network'
               },
               {
                 text: "Key Features",
-                link: '/learn/overview#mission'
+                link: '/learn/key-features'
               },
               { 
                 text: 'Architecture', 
-                link: '/learn/how-platform-works', 
+                link: '/learn/architecture', 
               },
               {
                 text: "Why Arka Network?",
-                link: '/learn/overview#vision'
+                link: '/learn/why-arka-network'
               },
             ]
           },
@@ -128,17 +128,17 @@ export default defineConfig({
             ]
           },
           { 
-            text: 'Agent Integration',
+            text: 'Agent Monetization',
             collapsed: false,
             items: [
-              { text: 'Integrating AI Agents', link: '/ai-builders/integrate-an-agent' },
+              { text: 'Monetizating AI Agents', link: '/ai-builders/monetize-agent' },
             ]
           },
           { 
             text: 'Agent Marketplace',
             collapsed: false,
             items: [
-              { text: 'Deploying An AI Agent', link: '/ai-builders/deploy-an-agent'},
+              { text: 'Accessing Agent Marketplace', link: '/ai-builders/marketplace'},
             ]
           },
           

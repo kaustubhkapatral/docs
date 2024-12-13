@@ -30,8 +30,8 @@ features:
   - title: How - To Guides
     icon:
       src: /how-to-guide.png
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /how-to
+    details: How to run a node, access an agent, deploy an agent, and more.
+    link: /how-to/run-a-node
   - title: Community
     icon:
       src: /community.png
