@@ -21,7 +21,7 @@ features:
     icon:
       src: /learn.png
     details: Dive into the foundations of AI sovereignty and explore how Arka revolutionizes decentralized AI systems.
-    link: /learn/overview
+    link: /learn/welcome-to-arka
   - title: AI Builders
     icon:
       src: /ai-builders.png

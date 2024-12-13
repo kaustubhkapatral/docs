@@ -36,91 +36,112 @@ export default defineConfig({
     sidebar: [
       {
         text: 'Learn',
-        collapsed: false,
         items: [
           {
-            text: 'Overview', link: '/learn/overview',
+            text: 'Overview',
+            collapsed: false,
             items: [
               {
-                text: "What is Arka Network",
+                text: "What is Arka Network?",
                 link: '/learn/overview#what-is-arka-network'
               },
               {
-                text: "Mission",
+                text: "Key Features",
                 link: '/learn/overview#mission'
               },
+              { 
+                text: 'Architecture', 
+                link: '/learn/how-platform-works', 
+              },
               {
-                text: "Vision",
+                text: "Why Arka Network?",
                 link: '/learn/overview#vision'
-              }
+              },
             ]
           },
-          { text: 'Problem Statement', link: '/learn/problem-statement', },
-          { text: 'Solution', link: '/learn/solution', },
-          {
-            text: 'Core Features', link: '/learn/core-features',
-            items: [
-              // {
-              //   text: "AI Models As NFTs",
-              //   link: '/learn/core-features#ai-models-as-nfts'
-              // },
-              // {
-              //   text: "NFT Licensing",
-              //   link: '/learn/core-features#nft-licensing'
-              // },
-              // {
-              //   text: "NFT Leasing",
-              //   link: '/learn/core-features#nft-leasing'
-              // },
-              {
-                text: "Creators’ Toolbox",
-                link: '/learn/core-features#creators-toolbox'
-              },
-              {
-                text: "Launchpad for AI Models",
-                link: '/learn/core-features#launchpad-for-ai-models'
-              }
-            ]
+          // {
+          //   text: 'Core Concepts', link: '/learn/core-features',
+          //   collapsed: false,
+          //   items: [
+          
+          //     {
+          //       text: "Sovereign AI Agents",
+          //       link: '/learn/core-features#creators-toolbox'
+          //     },
+          //     {
+          //       text: "Proof of Inference",
+          //       link: '/learn/core-features#launchpad-for-ai-models'
+          //     },
+          //     {
+          //       text: "Mutli-agent consensus engine ",
+          //       link: '/learn/core-features#launchpad-for-ai-models'
+          //     },
+          //     {
+          //       text: "Agent to Agent communication ",
+          //       link: '/learn/core-features#launchpad-for-ai-models'
+          //     },
+          //     {
+          //       text: "Agent Governance ",
+          //       link: '/learn/core-features#launchpad-for-ai-models'
+          //     },
+          //   ]
 
-          },
-          { text: 'How the platform works', link: '/learn/how-platform-works', },
-          {
-            text: 'Technology', link: '/learn/technology',
-            items: [
-              {
-                text: "Leveraging Cosmos SDK",
-                link: "/learn/technology#leveraging-cosmos-sdk"
-              },
-              // {
-              //   text: "Royalties Module",
-              //   link: "/learn/technology#royalties-module"
-              // },
-              // {
-              //   text: "Payment Splitter Contract",
-              //   link: "/learn/technology#payment-splitter-contract"
-              // },
-              {
-                text: "Decentralized GPU Network Integration",
-                link: "/learn/technology#decentralized-gpu-network-integration"
-              },
-              // {
-              //   text: "NFT Leasing and Licensing",
-              //   link: "/learn/technology#nft-leasing-and-licensing"
-              // }
-            ]
+          // },
+          // {
+          //   text: 'Technology', 
+          //   collapsed: false,
+          //   link: '/learn/technology',
+          //   items: [
+          //     {
+          //       text: "Leveraging Cosmos SDK",
+          //       link: "/learn/technology#leveraging-cosmos-sdk"
+          //     },
+          //     {
+          //       text: "DePIN Integration",
+          //       link: "/learn/technology#decentralized-gpu-network-integration"
+          //     },
+          //     {
+          //       text: "Model Storage using IPFS",
+          //       link: "/learn/technology#decentralized-gpu-network-integration"
+          //     },
+          //   ]
 
-          },
-          { text: 'Tokenomics', link: '/learn/tokenomics', },
+          // },
         ]
       },
       {
         text: 'AI Builders',
-        collapsed: false,
         items: [
-          { text: 'Build An Agent', link: '/ai-builders/build-an-agent' },
-          { text: 'Deploy An Agent', link: '/ai-builders/deploy-an-agent' },
-          { text: 'Test And Validate', link: '/ai-builders/test-and-validate' },
-          { text: 'Monitize', link: '/ai-builders/monetize-agent' }
+          { 
+            text: 'Agent Playground',
+            collapsed: false,
+            items: [
+              { text: 'Building An AI Agent', link: '/ai-builders/build-an-agent' },
+            ]
+          },
+          { 
+            text: 'Agent Orchestration',
+            collapsed: false,
+            items: [
+              { text: 'Deploying An AI Agent', link: '/ai-builders/deploy-an-agent'},
+
+            ]
+          },
+          { 
+            text: 'Agent Integration',
+            collapsed: false,
+            items: [
+              { text: 'Integrating AI Agents', link: '/ai-builders/integrate-an-agent' },
+            ]
+          },
+          { 
+            text: 'Agent Marketplace',
+            collapsed: false,
+            items: [
+              { text: 'Deploying An AI Agent', link: '/ai-builders/deploy-an-agent'},
+            ]
+          },
+          
         ]
       },
       {
@@ -128,7 +149,7 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: 'Run a node', link: '/how-to/run-a-node' },
-          { text: 'How to access an Agent', link: '/how-to/access-an-agent' }
+          // { text: 'How to access an Agent', link: '/how-to/access-an-agent' }
         ]
       },
       {
