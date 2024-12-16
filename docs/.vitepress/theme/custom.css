@@ -1,0 +1,17 @@
+/* .vitepress/theme/custom.css */
+:root {
+  --vp-c-brand-1: #00BF77;
+  --vp-c-brand-2: #00BF77;
+  --vp-button-brand-bg: #00BF77;
+  --vp-home-hero-name-color: #1c1e21;
+}
+
+html.dark {
+  --vp-home-hero-name-color: white;
+  /* For dark theme */
+}
+
+.logo {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
